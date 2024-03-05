@@ -7,5 +7,5 @@ try {
     })
 } catch(err) {
     Room.Ui.GetContext().Hint.Value = 
-        `Room error: ${err.name}.\nDescription error: ${err.message}.`
+        'Room error: ' + err.name + '\nDescription error: ' + err.message
 }
