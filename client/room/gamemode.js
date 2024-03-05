@@ -1,4 +1,4 @@
-import { Ui } as Room from 'pixel_combats/room'
+import { Ui } as m_Room from 'pixel_combats/room'
 import * as PEnter from './Main.js'
 
 try {
@@ -6,5 +6,5 @@ try {
         version: '0.1'
     })
 } catch(err) {
-    Room.Ui.GetContext().Hint.Value = 'Room error: ' + err.name + '\nDescription error: ' + err.message
+    m_Room.Ui.GetContext().Hint.Value = 'Room error: ' + err.name + '\nDescription error: ' + err.message
 }
